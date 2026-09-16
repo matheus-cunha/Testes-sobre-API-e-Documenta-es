@@ -45,9 +45,9 @@ A avaliação geral será calculada com base nos pesos definidos abaixo.
 
 **Processo de Avaliação**
 
-A avaliação deve considerar o comportamento e a participação do integrante ao longo da Sprint, evitando que um único acontecimento isolado determine a avaliação final.<br>
-O integrante será informado sobre os pontos que precisam de melhoria.<br>
-Será realizada uma conversa com o integrante e, quando necessário, com os responsáveis pelo acompanhamento.<br>
-Serão definidos pontos de melhoria para a próxima Sprint.<br>
-Na Sprint seguinte, será verificada a evolução do integrante.<br>
-Em caso de reincidência, a permanência no grupo será reavaliada.<br>
+- A avaliação deve considerar o comportamento e a participação do integrante ao longo da Sprint, evitando que um único acontecimento isolado determine a avaliação final.<br>
+- O integrante será informado sobre os pontos que precisam de melhoria.<br>
+- Será realizada uma conversa com o integrante e, quando necessário, com os responsáveis pelo acompanhamento.<br>
+- Serão definidos pontos de melhoria para a próxima Sprint.<br>
+- Na Sprint seguinte, será verificada a evolução do integrante.
+- Em caso de reincidência, a permanência no grupo será reavaliada.
