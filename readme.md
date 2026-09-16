@@ -2,8 +2,8 @@
 
 ## 📋 Backlog do Produto (WIP) <a id="backlog"></a>
 
-| ID      | Sprint | Descrição | Critérios de aceitação |
-| :------:| :----: | :------- | :-------------------- |
+| ID    | Sprint | Descrição | Critérios de aceitação |
+| :---: | :---: | :--- | :--- |
 | **US1** |    1   | **Como analista de crédito**, quero ver um gráfico de mapeamento da Inadimplência de recuperação rápida da população de uma região, para basear minha decisão de liberação de crédito. | - Código hospedado via Colab <br>- Deverá existir um método de entrada de UF para filtrar os dados por região <br>- Tratar dados da base de dados SCR <br>- Dados do norte nordeste devem aparecer obrigatóriamente em um gráfico |
 | **US2** |    1   | **Como analista de crédito**, quero ver através de um gráfico a relação entre a porcentagem da dívida que é saudável ou crítica da população de uma região, para saber qual maior uso do crédito em determinado estado. | - Código hospedado via Colab<br>- Deverá existir um método de entrada de UF para filtrar os dados por região<br>- O gráfico deve exibir de maneira clara todas as informações citadas<br>- Não utilizar gráfico de pizza<br>- Dados do Norte Nordeste devem funcionar obrigatoriamente |
 | **US3** |    2   | **Como analista de crédito**, quero visualizar um gráfico comparando a taxa de juros de crédito  das maiores instituições financeiras do Brasil, para poder comparar quais são mais altas. | - Código hospedado via Colab<br>- Dar preferência a exibição do Sicoob, Caixa Econômica e Banco do Brasil por ter mais força no Norte Nordeste<br>- O gráfico deve exibir de maneira clara todas os bancos e suas respectivas taxas de juros |
