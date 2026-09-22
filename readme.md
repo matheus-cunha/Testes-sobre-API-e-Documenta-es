@@ -2,10 +2,8 @@
 
 | ID    | Sprint | Descrição | Critérios de aceitação |
 | :---: | :---: | :--- | :--- |
-<mark style="background-color: #2ea44f; color: white; padding: 2px 4px; border-radius: 3px;">
-| **US01** |    1   | **Como analista de crédito**, quero ver um gráfico de mapeamento da Inadimplência de recuperação rápida da população de uma região, para basear minha decisão de liberação de crédito. | - Código hospedado via Colab <br>- Deverá existir um método de entrada de UF para filtrar os dados por região <br>- Tratar dados da base de dados SCR <br>- Dados do norte nordeste devem aparecer obrigatóriamente em um gráfico |
+| <mark style="color: #2ea44f;">**US01**</mark> |    1   | **Como analista de crédito**, quero ver um gráfico de mapeamento da Inadimplência de recuperação rápida da população de uma região, para basear minha decisão de liberação de crédito. | - Código hospedado via Colab <br>- Deverá existir um método de entrada de UF para filtrar os dados por região <br>- Tratar dados da base de dados SCR <br>- Dados do norte nordeste devem aparecer obrigatóriamente em um gráfico |
 | **US02** |    1   | **Como analista de crédito**, quero ver através de um gráfico a relação entre a porcentagem da dívida que é saudável ou crítica da população de uma região, para saber qual maior uso do crédito em determinado estado. | - Código hospedado via Colab<br>- Deverá existir um método de entrada de UF para filtrar os dados por região<br>- O gráfico deve exibir de maneira clara todas as informações citadas<br>- Não utilizar gráfico de pizza<br>- Dados do Norte Nordeste devem funcionar obrigatoriamente |
-</mark>
 | **US03** |    2   | **Como analista de crédito**, quero visualizar um gráfico comparando a taxa de juros de crédito  das maiores instituições financeiras do Brasil, para poder comparar quais são mais altas. | - Código hospedado via Colab<br>- Dar preferência a exibição do Sicoob, Caixa Econômica e Banco do Brasil por ter mais força no Norte Nordeste<br>- O gráfico deve exibir de maneira clara todas os bancos e suas respectivas taxas de juros |
 | **US04** |    2   | **Como analista de crédito**, quero ver através de um gráfico a relação de dívidas e inadimplência causada por Bets em uma região, para poder decidir a aprovação de crédito. | - Código hospedado via Colab<br>- Utilizar dados reais do IBGE |
 | **US05** |    2   | **Como analista de crédito** desejo visualizar dados demográficos e econômicos locais, para estimar o potencial financeiro dos solicitantes de uma região. | • Código hospedado via Colab <br>• Os dados devem ser regionais<br>• Deverá ser consumida uma das APIs já integradas para sumarização dos dados |
@@ -15,6 +13,7 @@
 | **US09** |    3   | **Como cliente** gostaria de visualizar uma tela com um resumo dos gráficos anteriormente gerados de maneira prática e fácil de entender para facilitar a operação e filtragem de dados. | - Deve apresentar todos os gráficos gerados pelo Colab<br>- Deve informar fontes de dados<br>- Deve ser responsivo<br>- Navegação intuitiva<br>- Código versionado e commitado no GitHub |
 
 ---
+<mark style="color: #2ea44f;">
 
 ## ☑️ DoR — Definition of Ready <a id="dready"></a>
 
