@@ -14,7 +14,7 @@
 | :---: | :--- | :--- | :--- | :---: |
 | US01-01 | Estudar métodos de comunicação API / SCR | Levantar metodos para operações | Calculo revisado pela equipe | 5 |
 | US01-02 | Implementar feature que baixe CSV e trate dados | Estudo de endpoint e colunas para cálculos | imprimir tabela baixada no Colab | 5 |
-| US01-03 | Implementar a visualização de um gráfico para exibição dos dados | Tabela de dados preparada | | Dados de amostragem revisados pelo PO | 5 |
+| US01-03 | Implementar a visualização de um gráfico para exibição dos dados | Tabela de dados preparada | Dados de amostragem revisados pelo PO | 5 |
 | US02-01 | Implementar uma feature que receba os dados do CSV SCR para um df | Validado o funcionamento da US1 | Colunas extraidas para gráfico | 5 |
 | US02-02 | Criar uma tabela com os dados de consumo crítico já tratados | Regras de negócio definidas | Extração das colunas e salvamento em DF | 5 |
 | US02-03 | Salvar os dados de consumo saudável para a apresentação do gráfico | Regras de negócio definidas | Validado pelo PO o gráfico| 5 |
