@@ -1,4 +1,4 @@
-##Padronização de commits
+## Padronização de commits
 
 | <Tipo>    | Descrição | Exemplo |
 | :---: | :--- | :--- |
