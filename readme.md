@@ -1,53 +1,38 @@
-## Critérios de Permanência no Grupo
+## 📋 Backlog do Produto (WIP) <a id="backlog"></a>
 
-Este documento estabelece os critérios utilizados para acompanhar e avaliar a participação, responsabilidade, colaboração e comprometimento dos integrantes ao longo das Sprints e das demais atividades do projeto.
-
-O sistema de avaliação é baseado em uma avaliação cruzada entre os integrantes da equipe, na qual cada critério possui um peso proporcional à sua importância para o bom funcionamento do grupo. Dessa forma, busca-se estabelecer expectativas claras de comportamento e participação, promovendo transparência, responsabilidade individual, colaboração e consistência durante todas as etapas do projeto.
-
-A avaliação tem como objetivo identificar pontos positivos e oportunidades de melhoria, contribuindo para um ambiente de trabalho mais organizado, colaborativo e alinhado às práticas do Scrum.
-
----
-
-|  | Descrição | Peso |
-| :---: | :---- | :---: |
-| [X]<br>1 | **COMPROMISSO COM SPRINTS E FREQUENCIA**<br>Os integrantes de devem participar ativamente das cerimônias do Scrum, Sprints e atividades do grupo. Ausências e faltas atrapalham o engajamento e andamento dos projetos. Evitar desaparecer durante uma Sprint sem justificativa. | 15% |
-| [X]<br>2 | **HONRAR RESPONSABILIDADES E PRAZOS DA SPRINT**<br>Atrasar entregas sem comunicar 2 dias previamente ao time ou ao responsável prejudica o fluxo da sprint. | 15% |
-| [X]<br>3 | **USO CORRETO DO GIT**<br>Commits, branches e merges devem seguir o padrão definido pela equipe. O uso incorreto pode causar conflitos e perda de trabalho. | 15% |
-| [X]<br>4 | **USO DE IA COM RESPONSABILIDADE**<br>A apresentação de código gerado por LLMs deve ser REVISADO, TESTADO E COMENTADO antes de entregue. | 15% |
-| [X]<br>5 | **PARTICIPAÇÃO ATIVA E COMUNICAÇÃO**<br>O integrante deve participar das discussões técnicas e do projeto como um todo, ajudar na resolução de problemas e contribuir com as decisões do projeto. | 10% |
-| [X]<br>6 | **BOAS PRÁTICAS DE CONVIVÊNCIA**<br>Respeito, ética, profissionalismo e comunicação são essenciais. Conflitos, desrespeito ou atitudes negativas não serão toleradas. | 10% |
-| [X]<br>7 | **PRESENÇA MASTERS E PO’S NAS REUNIÕES ACADÊMICAS**<br>Os membros PO e Scrum Master devem comparecer às aulas referentes aos professores P2 e M2.| 10% |
-| [X]<br>8 | **RESPONSABILIDADE AO ASSUMIR TASKS**<br>Cada membro deve escolher as tasks durante período de planning e não mais que isso para não atrasar no planejamento das entregas. | 10% |
-
+| ID    | Sprint | Descrição | Critérios de aceitação |
+| :---: | :---: | :--- | :--- |
+<mark style="background-color: #2ea44f; color: white; padding: 2px 4px; border-radius: 3px;">
+| **US01** |    1   | **Como analista de crédito**, quero ver um gráfico de mapeamento da Inadimplência de recuperação rápida da população de uma região, para basear minha decisão de liberação de crédito. | - Código hospedado via Colab <br>- Deverá existir um método de entrada de UF para filtrar os dados por região <br>- Tratar dados da base de dados SCR <br>- Dados do norte nordeste devem aparecer obrigatóriamente em um gráfico |
+| **US02** |    1   | **Como analista de crédito**, quero ver através de um gráfico a relação entre a porcentagem da dívida que é saudável ou crítica da população de uma região, para saber qual maior uso do crédito em determinado estado. | - Código hospedado via Colab<br>- Deverá existir um método de entrada de UF para filtrar os dados por região<br>- O gráfico deve exibir de maneira clara todas as informações citadas<br>- Não utilizar gráfico de pizza<br>- Dados do Norte Nordeste devem funcionar obrigatoriamente |
+</mark>
+| **US03** |    2   | **Como analista de crédito**, quero visualizar um gráfico comparando a taxa de juros de crédito  das maiores instituições financeiras do Brasil, para poder comparar quais são mais altas. | - Código hospedado via Colab<br>- Dar preferência a exibição do Sicoob, Caixa Econômica e Banco do Brasil por ter mais força no Norte Nordeste<br>- O gráfico deve exibir de maneira clara todas os bancos e suas respectivas taxas de juros |
+| **US04** |    2   | **Como analista de crédito**, quero ver através de um gráfico a relação de dívidas e inadimplência causada por Bets em uma região, para poder decidir a aprovação de crédito. | - Código hospedado via Colab<br>- Utilizar dados reais do IBGE |
+| **US05** |    2   | **Como analista de crédito** desejo visualizar dados demográficos e econômicos locais, para estimar o potencial financeiro dos solicitantes de uma região. | • Código hospedado via Colab <br>• Os dados devem ser regionais<br>• Deverá ser consumida uma das APIs já integradas para sumarização dos dados |
+| **US06** |    3   | **Como analista de crédito**, quero visualizar a evolução histórica dos dados financeiros e econômicos, para identificar a trajetória de melhora ou piora no perfil da região. | - Código hospedado via Colab<br>- O filtro de dados deve ser por região<br>- Exibir um gráfico de linhas para comparativo de evolução<br>- Os dados devem ser referentes a no mínimo 2 anos |
+| **US07** |    3   | **Como analista de crédito**, quero identificar áreas com alto índice de vulnerabilidade através de um score de crédito, para direcionar produtos de crédito alternativo ou microcrédito orientado. | - Código hospedado via Colab<br>- Elaborar métricas reais de avaliação de score<br>- Exibir um gráfico com os pontos de avaliação por região |
+| **US08** |    3   | **Como cliente** gostaria de poder acessar uma tela institucional contendo a explicação da metodologia de dados e cálculos do sistema para compreender a origem e a confiabilidade das estatísticas apresentadas. | - A tela deve ser responsiva<br>- A tela deve apresentar toda a metodologia de dados<br>- Deve apresentar a explicação do calculo do Score<br>- Deve apresentar a origem dos dados e fontes<br>- Código versionado e commitado no GitHub |
+| **US09** |    3   | **Como cliente** gostaria de visualizar uma tela com um resumo dos gráficos anteriormente gerados de maneira prática e fácil de entender para facilitar a operação e filtragem de dados. | - Deve apresentar todos os gráficos gerados pelo Colab<br>- Deve informar fontes de dados<br>- Deve ser responsivo<br>- Navegação intuitiva<br>- Código versionado e commitado no GitHub |
 
 ---
 
+## ☑️ DoR — Definition of Ready <a id="dready"></a>
 
-**Observações:**
+- [X] Título claro e objetivo definido
+- [X] Definir critérios de aceitação
+- [X] Especificar regras de negócio
+- [X] Estimativa da User Story
+- [X] Verificar dependências
+- [X] Wireframe disponível
+- [X] Regras de negócio definidas
+- [X] Modelo de dados disponível
+- [X] Definição de casos de teste 
 
-São rotinas do Scrum:
+## ✅ DoD — Definition of Done <a id="dod"></a>
 
-- Sprint Planning
-- Daily Scrum
-- Sprint Review
-- Sprint Retrospective
-
-A avaliação geral será calculada com base nos pesos definidos abaixo.
-
-- **80% ou mais:** permanência normal;
-- **60% a 79%:** alerta e plano de melhoria para a próxima Sprint;
-- **Abaixo de 60%:** reunião de avaliação da permanência no grupo;
-- **Reincidência:** desligamento, após conversa e oportunidade de melhoria.
-
+- [X] Código realizado e versionado 
+- [X] Remoção de códigos comentados
+- [X] Testes realizados
+- [X] Merge da Branch da task 
 
 ---
-
-
-**Processo de Avaliação**
-
-- A avaliação deve considerar o comportamento e a participação do integrante ao longo da Sprint, evitando que um único acontecimento isolado determine a avaliação final.<br>
-- O integrante será informado sobre os pontos que precisam de melhoria.<br>
-- Será realizada uma conversa com o integrante e, quando necessário, com os responsáveis pelo acompanhamento.<br>
-- Serão definidos pontos de melhoria para a próxima Sprint.<br>
-- Na Sprint seguinte, será verificada a evolução do integrante.
-- Em caso de reincidência, a permanência no grupo será reavaliada.
