@@ -11,6 +11,7 @@
 
 
 | ID | Descrição | Descrição de pronto (DOD) | Descrição de feito (DOR) | Estimativa |
+| :---: | :--- | :--- | :--- | :---: |
 | US01-01 | Estudar métodos de comunicação API / SCR | Levantar metodos para operações | Calculo revisado pela equipe | 5 |
 | US01-02 | Implementar feature que baixe CSV e trate dados | Estudo de endpoint e colunas para cálculos | imprimir tabela baixada no Colab | 5 |
 | US01-03 | Implementar a visualização de um gráfico para exibição dos dados | Tabela de dados preparada | | Dados de amostragem revisados pelo PO | 5 |
