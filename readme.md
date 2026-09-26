@@ -6,7 +6,9 @@
 
 Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM).
 
-> _A API consiste em um projeto de caráter educacional desenvolvido pela instituição de ensino Fatec São José dos Campos. Nesse projeto, os alunos são organizados em equipes com base na metodologia ágil Scrum, sendo proposto um desafio a ser solucionado. Para isso, os integrantes assumem diferentes papéis dentro do processo, de acordo com as responsabilidades estabelecidas pela metodologia. Cada equipe é composta por um aluno responsável pela função de Scrum Master, outro como Product Owner (PO) e os demais integrantes atuando como membros do Dev Team._
+> _A API consiste em um projeto de caráter educacional desenvolvido pela instituição de ensino Fatec São José dos Campos. Nesse projeto, os alunos são organizados em equipes com base na metodologia ágil Scrum, sendo proposto um desafio a ser solucionado. 
+
+Para isso, os integrantes assumem diferentes papéis dentro do processo, de acordo com as responsabilidades estabelecidas pela metodologia. Cada equipe é composta por um aluno responsável pela função de Scrum Master, outro como Product Owner (PO) e os demais integrantes atuando como membros do Dev Team._
 
 <p align="center">
   <a href="#cliente">Clente</a> &#xa0; | &#xa0;
@@ -18,7 +20,7 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
   <a href="#cronograma">Cronograma</a> &#xa0; | &#xa0;
   <a href="#backlog">Backlog do produto</a> &#xa0; | &#xa0;
   <a href="#dor">DOR</a> &#xa0; | &#xa0;
-  <a href="#dod">DOD</a> &#xa0; | &#xa0;
+  <a href="#dod">DOD</a> &#xa0;
 </p>
 <p align="center">
   <a href="#brabches">Estratégia de branches</a> &#xa0; | &#xa0;
@@ -37,6 +39,7 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
 ## 🤔 <span id="desafio">Desafio</span>
 
 Conceder crédito para populações historicamente recusadas por grandes instituições financeiras, identificando onde reside o consumo reprimido e a capacidade real de pagamento sustentável.
+
 Neste projeto, o objetivo é explorar a transformação de dados econômicos públicos do Banco Central do Brasil (BCB) em inteligência territorial para apoiar decisões de crédito mais inclusivas e responsáveis.
 
 ---
