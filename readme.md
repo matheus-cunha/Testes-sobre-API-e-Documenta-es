@@ -12,21 +12,21 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
   <a href="#cliente">Clente</a> &#xa0; | &#xa0;
   <a href="#desafio">Desafio</a> &#xa0; | &#xa0;
   <a href="#solucao">Solução</a> &#xa0; | &#xa0;
-  <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#tecnologias">Tecnologias</a> &#xa0;
 </p>
-<p>
+<p align="center">
   <a href="#backlog">Backlog do produto</a> &#xa0; | &#xa0;
   <a href="#dor">DOR</a> &#xa0; | &#xa0;
-  <a href="#dod">DOD</a> &#xa0; | &#xa0;
+  <a href="#dod">DOD</a> &#xa0;
 </p>
-<p>
+<p align="center">
   <a href="#cronograma">Cronograma</a> &#xa0; | &#xa0;
-  <a href="#time">Time</a> &#xa0; | &#xa0;
+  <a href="#time">Time</a> &#xa0;
 </p>
 
 ---
 
-## 🏫 Cliente <a id="cliente"></a>
+## 🏫<span id ="cliente">Cliente</span>
 
 **Professor Fernando Masanori Ashikaga**
 
@@ -45,9 +45,7 @@ O sistema CEUCI é uma aplicação voltada à análise de risco de crédito por 
 
 A aplicação é apresentada por meio de um painel interativo (dashboard), composto por gráficos, indicadores e filtros que permitem a visualização das informações e identificação de regiões com diferentes níveis de risco de crédito, fornecendo aos analistas informações que podem apoiar a avaliação de cenários e a tomada de decisões relacionadas à concessão de crédito.
 
-
 ---
-
 
 ## ⚙️ Tecnologias <a id="tecnologias"></a>
 
