@@ -6,7 +6,7 @@
 
 Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM).
 
-> _A API consiste em um projeto de caráter educacional desenvolvido pela instituição de ensino Fatec São José dos Campos. Nele, os alunos são organizados em equipes com base na metodologia ágil Scrum, assumindo diferentes papéis dentro do processo. Cada equipe é composta por um aluno responsável pela função de Scrum Master, outro como Product Owner (PO) e os demais integrantes atuando como membros do Dev Team._
+> _A API consiste em um projeto de caráter educacional desenvolvido pela instituição de ensino Fatec São José dos Campos. Nesse projeto, os alunos são organizados em equipes com base na metodologia ágil Scrum, sendo proposto um desafio a ser solucionado. Para isso, os integrantes assumem diferentes papéis dentro do processo, de acordo com as responsabilidades estabelecidas pela metodologia. Cada equipe é composta por um aluno responsável pela função de Scrum Master, outro como Product Owner (PO) e os demais integrantes atuando como membros do Dev Team._
 
 <p>
   <a href="#cliente"><img src="https://img.shields.io/badge/Cliente-grey?style=for-the-badge" alt="Cliente"></a> 
@@ -31,23 +31,42 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
 
 ---
 
-## 🤔 Dor do Cliente <a id="dor"></a>
+## 🤔 Desafio <a id="desafio"></a>
 
 Conceder crédito para populações historicamente recusadas por grandes instituições financeiras, identificando onde reside o consumo reprimido e a capacidade real de pagamento sustentável.
-
----
-
-## 🎯 Desafio <a id="desafio"></a>
-
-Transformar dados econômicos públicos do Banco Central do Brasil (BCB) em inteligência territorial para apoiar decisões de crédito mais inclusivas e responsáveis.
+Neste projeto, o objetivo é explorar a transformação de dados econômicos públicos do Banco Central do Brasil (BCB) em inteligência territorial para apoiar decisões de crédito mais inclusivas e responsáveis.
 
 ---
 
 ## 🧩 Solução <a id="solucao"></a>
 
-A partir de dados públicos calcular risco de crédito por região, permitindo que analistas de crédito visualizem indicadores, apliquem filtros e comparem territórios de forma simples e responsiva.
+O sistema CEUCI é uma aplicação voltada à análise de risco de crédito por regiões do Brasil. A plataforma utiliza dados públicos e atualizados, provenientes de fontes como o Banco Central do Brasil, IBGE e outras bases oficiais, para gerar indicadores que auxiliam na compreensão do cenário de crédito e inadimplência em diferentes regiões do Brasil.
+
+A aplicação é apresentada por meio de um painel interativo (dashboard), composto por gráficos, indicadores e filtros que permitem a visualização das informações e identificação de regiões com diferentes níveis de risco de crédito, fornecendo aos analistas informações que podem apoiar a avaliação de cenários e a tomada de decisões relacionadas à concessão de crédito.
+
+---
+
+## ⚙️ Tecnologias <a id="tecnologias"></a>
 
 O análise e processamento de dados é feito com **Google Colab**, e resultado é exibido em um site desenvolvido com **HTML + CSS + Python (Flask)**.
+<p>
+  
+!HTML5
+!CSS3
+
+</p>
+<p>
+  
+!Python
+!Flask
+
+</p>
+<p>
+  
+!SQL
+!Google Colab
+
+</p>
 
 ---
 
@@ -67,7 +86,7 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 
 ---
 
-## ☑️ DoR — Definition of Ready <a id="dready"></a>
+## ☑️ DoR — Definition of Ready <a id="dor"></a>
 
 - [X] Título claro e objetivo definido
 - [X] Definir critérios de aceitação
@@ -95,7 +114,7 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 | Kick-off geral                   | 24/08 a 28/08     |   ✅   |
 | Construção do Backlog / Planning | 31/08 a 04/09     |   ✅   |
 | **Sprint 1**                     | **07/09 a 27/09** |   ✅   |
-| Sprint Review / Planning         | 28/09 a 02/10     |   ⏳   |
+| Sprint Review / Planning         | 28/09 a 02/10     |   ✅   |
 | **Sprint 2**                     | **05/10 a 25/10** |   ⏳   |
 | Sprint Review / Planning         | 26/10 a 30/10     |   ⏳   |
 | **Sprint 3**                     | **02/11 a 22/11** |   ⏳   |
@@ -104,25 +123,6 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 
 ---
 
-## ⚙️ Tecnologias <a id="tech"></a>
-<p>
-  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-
-</p>
-<p>
-  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-
-</p>
-<p>
-  
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
-
-</p>
 
 ---
 
@@ -130,14 +130,14 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 
 Nome | Função | LinkedIn | GitHub
 -|-|-|-
-Nícolas César Silva Ferreira | Product Owner / Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/nicolascsf/) | <a href="https://github.com/ncsf01"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Matheus Henrique da Cunha | Scrum Master / Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/matheus-cunha-sjc/) | <a href="https://github.com/matheus-cunha"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Enzo Zani | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/) | <a href="https://github.com/"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Gabriel Hatano Rocha | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/gabrielhatano/) | <a href="https://github.com/gabe435"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Gabriela Biscaro Belan | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/) | <a href="https://github.com/Gabiscaroo"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-João Manoel de Almeida Sales e Silva | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/joão-manoel-de-almeida-sales-e-silva-372a423a0/) | <a href="https://github.com/JoaoManoel-dev-cpu"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Luan Henrique Borsoi Alves | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/) | <a href="https://github.com/luanhba"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Karina Martins Molina | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/karina-molina-3aa2482ba/) | <a href="https://github.com/karina-molina"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Rebeca Rodrigues da Silva | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/rebeca-rodsilva/) | <a href="https://github.com/rebeca-rod"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a> 
+Nícolas César Silva Ferreira | Product Owner / Developer | ![LinkedIn](https://www.linkedin.com/in/nicolascsf/) | <a href="https://github.com/ncsf01"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Matheus Henrique da Cunha | Scrum Master / Developer | ![LinkedIn](https://www.linkedin.com/in/matheus-cunha-sjc/) | <a href="https://github.com/matheus-cunha"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Enzo Zani | Developer | ![LinkedIn](https://www.linkedin.com/) | <a href="https://github.com/"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Gabriel Hatano Rocha | Developer | ![LinkedIn](https://www.linkedin.com/in/gabrielhatano/) | <a href="https://github.com/gabe435"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Gabriela Biscaro Belan | Developer | ![LinkedIn](https://www.linkedin.com/) | <a href="https://github.com/Gabiscaroo"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+João Manoel de Almeida Sales e Silva | Developer | ![LinkedIn](https://www.linkedin.com/in/joão-manoel-de-almeida-sales-e-silva-372a423a0/) | <a href="https://github.com/JoaoManoel-dev-cpu"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Luan Henrique Borsoi Alves | Developer | ![LinkedIn](https://www.linkedin.com/) | <a href="https://github.com/luanhba"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Karina Martins Molina | Developer | ![LinkedIn](https://www.linkedin.com/in/karina-molina-3aa2482ba/) | <a href="https://github.com/karina-molina"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Rebeca Rodrigues da Silva | Developer | ![LinkedIn](https://www.linkedin.com/in/rebeca-rodsilva/) | <a href="https://github.com/rebeca-rod"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a> 
 
 ---
