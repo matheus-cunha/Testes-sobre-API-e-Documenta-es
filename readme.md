@@ -6,9 +6,9 @@
 
 Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM).
 
-> _A API consiste em um projeto de caráter educacional desenvolvido pela instituição de ensino Fatec São José dos Campos. Nesse projeto, os alunos são organizados em equipes com base na metodologia ágil Scrum, sendo proposto um desafio a ser solucionado. 
+> _A API consiste em um projeto de caráter educacional desenvolvido pela instituição de ensino Fatec São José dos Campos. Nesse projeto, os alunos são organizados em equipes com base na metodologia ágil Scrum, sendo proposto um desafio a ser solucionado._
 
-Para isso, os integrantes assumem diferentes papéis dentro do processo, de acordo com as responsabilidades estabelecidas pela metodologia. Cada equipe é composta por um aluno responsável pela função de Scrum Master, outro como Product Owner (PO) e os demais integrantes atuando como membros do Dev Team._
+> _Para isso, os integrantes assumem diferentes papéis dentro do processo, de acordo com as responsabilidades estabelecidas pela metodologia. Cada equipe é composta por um aluno responsável pela função de Scrum Master, outro como Product Owner (PO) e os demais integrantes atuando como membros do Dev Team._
 
 <p align="center">
   <a href="#cliente">Clente</a> &#xa0; | &#xa0;
