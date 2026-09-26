@@ -24,18 +24,18 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
 <a href="#time"><img src="https://img.shields.io/badge/Time-grey?style=for-the-badge" alt="Time"></a>
 
 
-<br><br>
+<br>
 ---
-<br><br>
+<br>
 
 
 ## 🏫 Cliente <a id="cliente"></a>
 
 **Professor Fernando Masanori Ashikaga**
 
-<br><br>
+<br>
 ---
-<br><br>
+<br>
 
 
 ## 🤔 Desafio <a id="desafio"></a>
