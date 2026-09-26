@@ -139,8 +139,9 @@ Para evitar que códigos quebrados entrem na branch principal, seguiremos este f
 
 ---
 
-## 👥 <span id="time">Time</span>
+## 👥 <span id="time">Time</a>
 
+Nome | Função | LinkedIn | GitHub
 -|-|-|-
 Nícolas César Silva Ferreira | Product Owner / Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/nicolascsf/) | <a href="https://github.com/ncsf01"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
 Matheus Henrique da Cunha | Scrum Master / Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/matheus-cunha-sjc/) | <a href="https://github.com/matheus-cunha"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
