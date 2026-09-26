@@ -49,7 +49,7 @@ A aplicação é apresentada por meio de um painel interativo (dashboard), compo
 
 ## ⚙️ <span id="tecnologias">Tecnologias</span>
 
-O análise e processamento de dados é feito com **Google Colab**, e resultado é exibido em um site desenvolvido com **HTML + CSS + Python (Flask)**.
+A análise e o processamento dos dados são realizados utilizando  **Google Colab e Python**, enquanto a interface da aplicação é desenvolvida com **HTML e CSS**. A comunicação entre o processamento dos dados e a aplicação web é realizada por meio do **Flask**.
 
 ### Coleta e Processamento de Dados
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) &#xa0;
@@ -61,13 +61,12 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 > _**Notebook:** [Abrir no Google Colab](https://colab.research.google.com/drive/1Ln9iksPbjt-FFvJKjqi9rXGdUwQIzkZ3?usp=sharing)_
 
 ### Frontend  
-!HTML5
-!CSS3
-
+![HTML5](https://img.shields.io/badge/HTML5-3776AB?style=for-the-badge&logo=html5&logoColor=white) &#xa0;
+![CSS3](https://img.shields.io/badge/CSS3-3776AB?style=for-the-badge&logo=css3&logoColor=white) &#xa0;
 
 ---
 
-## 📋 <a id="backlog" href="./docs/sprint-backlog/sprint-1.md">Backlog do Produto</a>
+## 📋 <a id="backlog" href="./docs/backlog-do-produto.md">Backlog do Produto</a>
 
 | ID    | Sprint | Descrição | Critérios de aceitação |
 | :---: | :---: | :--- | :--- |
@@ -118,12 +117,13 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 | Sprint Review                    | 23/11 a 27/11     |   ⏳   |
 | Feira de Soluções                | 03/12             |   ⏳   |
 
+<!-- --- -->
+
+<!-- Como  executar-->
+
 ---
 
-
----
-
-## 👥 Time <a id="time"></a>
+## 👥 <span id="time">Time</span>
 
 Nome | Função | LinkedIn | GitHub
 -|-|-|-
