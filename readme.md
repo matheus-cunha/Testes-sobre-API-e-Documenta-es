@@ -15,12 +15,10 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
   <a href="#tecnologias">Tecnologias</a> &#xa0;
 </p>
 <p align="center">
+  <a href="#cronograma">Cronograma</a> &#xa0; | &#xa0;
   <a href="#backlog">Backlog do produto</a> &#xa0; | &#xa0;
   <a href="#dor">DOR</a> &#xa0; | &#xa0;
   <a href="#dod">DOD</a> &#xa0;
-</p>
-<p align="center">
-  <a href="#cronograma">Cronograma</a> &#xa0; | &#xa0;
   <a href="#time">Time</a> &#xa0;
 </p>
 
@@ -66,7 +64,19 @@ A análise e o processamento dos dados são realizados utilizando  **Google Cola
 
 ---
 
-## 📋 <a id="backlog" href="./docs/backlog-do-produto.md">Backlog do Produto</a>
+## <span id="cronograma">MVP</span>
+
+O desenvolvimento do *CEUCI** está estruturado em **3 sprints**, focando na evolução progressiva desde a fundação técnica até a entrega final ao usuário:
+
+| Sprint | Foco do MVP | Entregas Principais | Vídeo da Sprint | Status |
+| :--- | :--- | :--- | :--- | :----: |
+| **[Sprint 1](./docs/sprint-backlog/sprint-01.md)**<br>*(07/09 - 27/09)* | **Base de dados** | Definição de bases de dados do projeto e desenvolvimento de funções que façam download e tratamento dos arquivos de dados. |  | ✅ |
+| **[Sprint 2](./docs/sprint-backlog/sprint-02.md)**<br>*(05/10 - 25/10)* | **Aperfeiçoamento** | Criação de gráficos direcionados a Bets, estrutura de navegação básica e definição da métrica para Score. |  | ⏳ |
+| **[Sprint 3](./docs/sprint-backlog/sprint-03.md)**<br>*(02/11 - 22/11)* | **Refinamento** | Responsividade e integração das telas ao backend e implementação da ferramenta de Score. |  | ⏳ |
+
+---
+
+## 📋 <span id="backlog">Backlog do Produto</span>
 
 | ID    | Sprint | Descrição | Critérios de aceitação |
 | :---: | :---: | :--- | :--- |
@@ -82,19 +92,19 @@ A análise e o processamento dos dados são realizados utilizando  **Google Cola
 
 ---
 
-## ☑️ DoR — Definition of Ready <a id="dor"></a>
+## ☑️ <span id="dor">DoR — Definition of Ready - Geral</span>
 
-- [X] Título claro e objetivo definido
-- [X] Definir critérios de aceitação
-- [X] Especificar regras de negócio
-- [X] Estimativa da User Story
-- [X] Verificar dependências
-- [X] Wireframe disponível
-- [X] Regras de negócio definidas
-- [X] Modelo de dados disponível
+- [X] Definir US e critérios de aceitação
+- [X] Card do Jira escrito com as regras de negócio definidas
+- [X] Subtarefas criadas a partir da US
+- [X] Subtarefas da User Story estimadas 
+- [X] Design do Figma anexado ao card do Jira
+- [X] Modelo de dados anexado ao card do Jira
 - [X] Definição de casos de teste 
 
-## ✅ DoD — Definition of Done <a id="dod"></a>
+---
+
+## ✅ <span id="dod">DoD — Definition of Done -Geral</span>
 
 - [X] Código realizado e versionado 
 - [X] Remoção de códigos comentados
@@ -103,23 +113,22 @@ A análise e o processamento dos dados são realizados utilizando  **Google Cola
 
 ---
 
-## 📝 Cronograma <a id="cronograma"></a>
+## Estratégia de branches - GITHUB
 
-| Evento                           | Período           | Status |
-| :------------------------------- | :---------------- | :----: |
-| Kick-off geral                   | 24/08 a 28/08     |   ✅   |
-| Construção do Backlog / Planning | 31/08 a 04/09     |   ✅   |
-| **Sprint 1**                     | **07/09 a 27/09** |   ✅   |
-| Sprint Review / Planning         | 28/09 a 02/10     |   ✅   |
-| **Sprint 2**                     | **05/10 a 25/10** |   ⏳   |
-| Sprint Review / Planning         | 26/10 a 30/10     |   ⏳   |
-| **Sprint 3**                     | **02/11 a 22/11** |   ⏳   |
-| Sprint Review                    | 23/11 a 27/11     |   ⏳   |
-| Feira de Soluções                | 03/12             |   ⏳   |
+- Main - Entrega estável do sistema.
+- Dev - Estado de desenvolvimento atual da Sprint.
+- feature/nome-da-feature: Branches criadas a partir da branch dev para novas funcionalidades.
 
-<!-- --- -->
+---
 
-<!-- Como  executar-->
+## Fluxo de Trabalho (Pull Requests)
+
+Para evitar que códigos quebrados entrem na branch principal, seguiremos este fluxo:
+
+1. **Criação:** Abra o PR da `feature/` para a `develop`.
+2. **Checklist de Autoria:** O autor deve garantir que a feature está completa.
+3. **Revisão por Pares:** Pelo menos 1 colega deve revisar o código.
+4. **Aprovação:** O merge só será feito após a aprovação e se não houver conflitos.
 
 ---
 
