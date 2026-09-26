@@ -18,7 +18,11 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
   <a href="#cronograma">Cronograma</a> &#xa0; | &#xa0;
   <a href="#backlog">Backlog do produto</a> &#xa0; | &#xa0;
   <a href="#dor">DOR</a> &#xa0; | &#xa0;
-  <a href="#dod">DOD</a> &#xa0;
+  <a href="#dod">DOD</a> &#xa0; | &#xa0;
+</p>
+<p align="center">
+  <a href="#brabches">Estratégia de branches</a> &#xa0; | &#xa0;
+  <a href="#fluxo">Fluxo de trabalho</a> &#xa0; | &#xa0;
   <a href="#time">Time</a> &#xa0;
 </p>
 
@@ -92,7 +96,7 @@ O desenvolvimento do *CEUCI** está estruturado em **3 sprints**, focando na evo
 
 ---
 
-## ☑️ <span id="dor">DoR — Definition of Ready - Geral</span>
+## ✅ <span id="dor">DoR — Definition of Ready - Geral</span>
 
 - [X] Definir US e critérios de aceitação
 - [X] Card do Jira escrito com as regras de negócio definidas
@@ -113,7 +117,7 @@ O desenvolvimento do *CEUCI** está estruturado em **3 sprints**, focando na evo
 
 ---
 
-## Estratégia de branches - GITHUB
+## ☑️ <span id="branches">Estratégia de branches - GITHUB</span>
 
 - Main - Entrega estável do sistema.
 - Dev - Estado de desenvolvimento atual da Sprint.
@@ -121,7 +125,7 @@ O desenvolvimento do *CEUCI** está estruturado em **3 sprints**, focando na evo
 
 ---
 
-## Fluxo de Trabalho (Pull Requests)
+## ☑️ <span id="fluxo">Fluxo de Trabalho (Pull Requests)</span>
 
 Para evitar que códigos quebrados entrem na branch principal, seguiremos este fluxo:
 
