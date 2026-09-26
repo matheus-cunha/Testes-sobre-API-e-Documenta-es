@@ -141,16 +141,16 @@ Para evitar que códigos quebrados entrem na branch principal, seguiremos este f
 
 ## 👥 <span id="time">Time</span>
 
-Nome | Função | LinkedIn | GitHub
 -|-|-|-
-Nícolas César Silva Ferreira | Product Owner / Developer | ![LinkedIn](https://www.linkedin.com/in/nicolascsf/) | <a href="https://github.com/ncsf01"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Matheus Henrique da Cunha | Scrum Master / Developer | ![LinkedIn](https://www.linkedin.com/in/matheus-cunha-sjc/) | <a href="https://github.com/matheus-cunha"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Enzo Zani | Developer | ![LinkedIn](https://www.linkedin.com/) | <a href="https://github.com/"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Gabriel Hatano Rocha | Developer | ![LinkedIn](https://www.linkedin.com/in/gabrielhatano/) | <a href="https://github.com/gabe435"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Gabriela Biscaro Belan | Developer | ![LinkedIn](https://www.linkedin.com/) | <a href="https://github.com/Gabiscaroo"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-João Manoel de Almeida Sales e Silva | Developer | ![LinkedIn](https://www.linkedin.com/in/joão-manoel-de-almeida-sales-e-silva-372a423a0/) | <a href="https://github.com/JoaoManoel-dev-cpu"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Luan Henrique Borsoi Alves | Developer | ![LinkedIn](https://www.linkedin.com/) | <a href="https://github.com/luanhba"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Karina Martins Molina | Developer | ![LinkedIn](https://www.linkedin.com/in/karina-molina-3aa2482ba/) | <a href="https://github.com/karina-molina"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
-Rebeca Rodrigues da Silva | Developer | ![LinkedIn](https://www.linkedin.com/in/rebeca-rodsilva/) | <a href="https://github.com/rebeca-rod"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a> 
+Nícolas César Silva Ferreira | Product Owner / Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/nicolascsf/) | <a href="https://github.com/ncsf01"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Matheus Henrique da Cunha | Scrum Master / Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/matheus-cunha-sjc/) | <a href="https://github.com/matheus-cunha"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Enzo Zani | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/) | <a href="https://github.com/"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Gabriel Hatano Rocha | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/gabrielhatano/) | <a href="https://github.com/gabe435"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Gabriela Biscaro Belan | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/) | <a href="https://github.com/Gabiscaroo"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+João Manoel de Almeida Sales e Silva | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/joão-manoel-de-almeida-sales-e-silva-372a423a0/) | <a href="https://github.com/JoaoManoel-dev-cpu"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Luan Henrique Borsoi Alves | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/) | <a href="https://github.com/luanhba"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Karina Martins Molina | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/karina-molina-3aa2482ba/) | <a href="https://github.com/karina-molina"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a>
+Rebeca Rodrigues da Silva | Developer | [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/rebeca-rodsilva/) | <a href="https://github.com/rebeca-rod"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github"/> </a> 
+
 
 ---
