@@ -53,27 +53,14 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 
 ### Coleta e Processamento de Dados
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) &#xa0;
-![Flask](https://img.shields.io/badge/Flask-3776AB?style=for-the-badge&logo=flask&logoColor=white) &#xa0; | &#xa0
-![Pandas](https://img.shields.io/badge/Pandas-3776AB?style=for-the-badge&logo=pandas&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-3776AB?style=for-the-badge&logo=googlecolab&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-3776AB?style=for-the-badge&logo=postgresql&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-3776AB?style=for-the-badge&logo=flask&logoColor=white) &#xa0;
+![Pandas](https://img.shields.io/badge/Pandas-3776AB?style=for-the-badge&logo=pandas&logoColor=white) &#xa0;
+![Google Colab](https://img.shields.io/badge/Google%20Colab-3776AB?style=for-the-badge&logo=googlecolab&logoColor=white) &#xa0;
+![SQL](https://img.shields.io/badge/SQL-3776AB?style=for-the-badge&logo=postgresql&logoColor=white) &#xa0;
 
-**Notebook:** [Abrir no Google Colab](https://colab.research.google.com/drive/1Ln9iksPbjt-FFvJKjqi9rXGdUwQIzkZ3?usp=sharing)
+> _**Notebook:** [Abrir no Google Colab](https://colab.research.google.com/drive/1Ln9iksPbjt-FFvJKjqi9rXGdUwQIzkZ3?usp=sharing)_
 
-
-
-!SQL
-
-</p>
-
-
-
-
-
-
-
-### Frontend
-  
+### Frontend  
 !HTML5
 !CSS3
 
