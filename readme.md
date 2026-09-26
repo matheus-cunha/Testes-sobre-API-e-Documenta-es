@@ -8,44 +8,36 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
 
 > _A API consiste em um projeto de caráter educacional desenvolvido pela instituição de ensino Fatec São José dos Campos. Nesse projeto, os alunos são organizados em equipes com base na metodologia ágil Scrum, sendo proposto um desafio a ser solucionado. Para isso, os integrantes assumem diferentes papéis dentro do processo, de acordo com as responsabilidades estabelecidas pela metodologia. Cada equipe é composta por um aluno responsável pela função de Scrum Master, outro como Product Owner (PO) e os demais integrantes atuando como membros do Dev Team._
 
-<p>
-  <a href="#cliente"><img src="https://img.shields.io/badge/Cliente-grey?style=for-the-badge" alt="Cliente"></a> 
-  <a href="#dor"><img src="https://img.shields.io/badge/Dor_do_Cliente-grey?style=for-the-badge" alt="Dor do Cliente"></a> 
-  <a href="#desafio"><img src="https://img.shields.io/badge/Desafio-grey?style=for-the-badge" alt="Desafio"></a> 
-  <a href="#solucao"><img src="https://img.shields.io/badge/Solução-grey?style=for-the-badge" alt="Solução"></a>
+<p align="center">
+  <a href="#cliente">Clente</a> &#xa0; | &#xa0;
+  <a href="#desafio">Desafio</a> &#xa0; | &#xa0;
+  <a href="#solucao">Solução</a> &#xa0; | &#xa0;
+  <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
 </p>
-<p><a href="#crono"><img src="https://img.shields.io/badge/Cronograma-grey?style=for-the-badge" alt="Cronograma"></a></p>
-<p><a href="#backlog"><img src="https://img.shields.io/badge/Backlog_do_Produto-grey?style=for-the-badge" alt="Backlog do Produto"></a></p>
 <p>
-  <a href="#dready"><img src="https://img.shields.io/badge/DoR-grey?style=for-the-badge" alt="DoR"></a> 
-  <a href="#dod"><img src="https://img.shields.io/badge/DoD-grey?style=for-the-badge" alt="DoD"></a> 
+  <a href="#backlog">Backlog do produto</a> &#xa0; | &#xa0;
+  <a href="#dor">DOR</a> &#xa0; | &#xa0;
+  <a href="#dod">DOD</a> &#xa0; | &#xa0;
 </p>
-<p><a href="#tech"><img src="https://img.shields.io/badge/Tecnologias-grey?style=for-the-badge" alt="Tecnologias"></a></p>
-<a href="#time"><img src="https://img.shields.io/badge/Time-grey?style=for-the-badge" alt="Time"></a>
+<p>
+  <a href="#cronograma">Cronograma</a> &#xa0; | &#xa0;
+  <a href="#time">Time</a> &#xa0; | &#xa0;
+</p>
 
-
-<br>
 ---
-<br>
-
 
 ## 🏫 Cliente <a id="cliente"></a>
 
 **Professor Fernando Masanori Ashikaga**
 
-<br>
 ---
-<br>
-
 
 ## 🤔 Desafio <a id="desafio"></a>
 
 Conceder crédito para populações historicamente recusadas por grandes instituições financeiras, identificando onde reside o consumo reprimido e a capacidade real de pagamento sustentável.
 Neste projeto, o objetivo é explorar a transformação de dados econômicos públicos do Banco Central do Brasil (BCB) em inteligência territorial para apoiar decisões de crédito mais inclusivas e responsáveis.
 
-
 ---
-
 
 ## 🧩 Solução <a id="solucao"></a>
 
@@ -120,7 +112,7 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 
 ---
 
-## 📝 Cronograma <a id="crono"></a>
+## 📝 Cronograma <a id="cronograma"></a>
 
 | Evento                           | Período           | Status |
 | :------------------------------- | :---------------- | :----: |
