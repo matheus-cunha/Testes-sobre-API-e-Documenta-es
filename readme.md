@@ -73,7 +73,7 @@ A análise e o processamento dos dados são realizados utilizando  **Google Cola
 
 ## <span id="cronograma">MVP</span>
 
-O desenvolvimento do *CEUCI** está estruturado em **3 sprints**, focando na evolução progressiva desde a fundação técnica até a entrega final ao usuário:
+O desenvolvimento do *CEUCI* está estruturado em **3 sprints**, focando na evolução progressiva desde a fundação técnica até a entrega final ao usuário:
 
 | Sprint | Foco do MVP | Entregas Principais | Vídeo da Sprint | Status |
 | :--- | :--- | :--- | :--- | :----: |
