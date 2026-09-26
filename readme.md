@@ -23,20 +23,26 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
 <p><a href="#tech"><img src="https://img.shields.io/badge/Tecnologias-grey?style=for-the-badge" alt="Tecnologias"></a></p>
 <a href="#time"><img src="https://img.shields.io/badge/Time-grey?style=for-the-badge" alt="Time"></a>
 
+
 ---
+
 
 ## 🏫 Cliente <a id="cliente"></a>
 
 **Professor Fernando Masanori Ashikaga**
 
+
 ---
+
 
 ## 🤔 Desafio <a id="desafio"></a>
 
 Conceder crédito para populações historicamente recusadas por grandes instituições financeiras, identificando onde reside o consumo reprimido e a capacidade real de pagamento sustentável.
 Neste projeto, o objetivo é explorar a transformação de dados econômicos públicos do Banco Central do Brasil (BCB) em inteligência territorial para apoiar decisões de crédito mais inclusivas e responsáveis.
 
+
 ---
+
 
 ## 🧩 Solução <a id="solucao"></a>
 
@@ -44,7 +50,9 @@ O sistema CEUCI é uma aplicação voltada à análise de risco de crédito por 
 
 A aplicação é apresentada por meio de um painel interativo (dashboard), composto por gráficos, indicadores e filtros que permitem a visualização das informações e identificação de regiões com diferentes níveis de risco de crédito, fornecendo aos analistas informações que podem apoiar a avaliação de cenários e a tomada de decisões relacionadas à concessão de crédito.
 
+
 ---
+
 
 ## ⚙️ Tecnologias <a id="tecnologias"></a>
 
@@ -68,7 +76,9 @@ O análise e processamento de dados é feito com **Google Colab**, e resultado �
 
 </p>
 
+
 ---
+
 
 ## 📋 Backlog do Produto<a id="backlog"></a>
 
