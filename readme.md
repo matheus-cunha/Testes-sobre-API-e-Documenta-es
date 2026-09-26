@@ -26,20 +26,20 @@ Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Seme
 
 ---
 
-## 🏫<span id ="cliente">Cliente</span>
+## 🏫 <span id ="cliente">Cliente</span>
 
 **Professor Fernando Masanori Ashikaga**
 
 ---
 
-## 🤔 Desafio <a id="desafio"></a>
+## 🤔 <span id="desafio">Desafio</span>
 
 Conceder crédito para populações historicamente recusadas por grandes instituições financeiras, identificando onde reside o consumo reprimido e a capacidade real de pagamento sustentável.
 Neste projeto, o objetivo é explorar a transformação de dados econômicos públicos do Banco Central do Brasil (BCB) em inteligência territorial para apoiar decisões de crédito mais inclusivas e responsáveis.
 
 ---
 
-## 🧩 Solução <a id="solucao"></a>
+## 🧩 <span id="solucao">Solução</span>
 
 O sistema CEUCI é uma aplicação voltada à análise de risco de crédito por regiões do Brasil. A plataforma utiliza dados públicos e atualizados, provenientes de fontes como o Banco Central do Brasil, IBGE e outras bases oficiais, para gerar indicadores que auxiliam na compreensão do cenário de crédito e inadimplência em diferentes regiões do Brasil.
 
@@ -47,33 +47,40 @@ A aplicação é apresentada por meio de um painel interativo (dashboard), compo
 
 ---
 
-## ⚙️ Tecnologias <a id="tecnologias"></a>
+## ⚙️ <span id="tecnologias">Tecnologias</span>
 
 O análise e processamento de dados é feito com **Google Colab**, e resultado é exibido em um site desenvolvido com **HTML + CSS + Python (Flask)**.
-<p>
+
+### Coleta e Processamento de Dados
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) &#xa0;
+![Flask](https://img.shields.io/badge/Flask-3776AB?style=for-the-badge&logo=flask&logoColor=white) &#xa0; | &#xa0
+![Pandas](https://img.shields.io/badge/Pandas-3776AB?style=for-the-badge&logo=pandas&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-3776AB?style=for-the-badge&logo=googlecolab&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-3776AB?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Notebook:** [Abrir no Google Colab](https://colab.research.google.com/drive/1Ln9iksPbjt-FFvJKjqi9rXGdUwQIzkZ3?usp=sharing)
+
+
+
+!SQL
+
+</p>
+
+
+
+
+
+
+
+### Frontend
   
 !HTML5
 !CSS3
 
-</p>
-<p>
-  
-!Python
-!Flask
-
-</p>
-<p>
-  
-!SQL
-!Google Colab
-
-</p>
-
 
 ---
 
-
-## 📋 Backlog do Produto<a id="backlog"></a>
+## 📋 <a id="backlog" href="./docs/sprint-backlog/sprint-1.md">Backlog do Produto</a>
 
 | ID    | Sprint | Descrição | Critérios de aceitação |
 | :---: | :---: | :--- | :--- |
