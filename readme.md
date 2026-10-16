@@ -16,11 +16,9 @@
 | US03-01 | Estudar métodos de download de dados JSON | Estudar método de leitura do Endpoint e tratamento dos dados| Equipe ciente da metodologia a ser utilizada | 8 |
 | US03-02 | Implementar download de dados | Implementar uma função de download de dados | Validado se o JSON está sendo aberto corretamente | 8 |
 | US03-03 | Criação do gráfico proposto | Implementar a exibição do gráfico com os dados do endpoint | Validado a exibição correta de acordo com a métrica da US | 4 |
- 
 | US04-01 | Estudar métodos de download de dados JSON | Estudar método de leitura do Endpoint e tratamento dos dados| Equipe ciente da metodologia a ser utilizada | 8 |
 | US04-02 | Implementar download de dados | Implementar uma função de download de dados | Validado se o JSON está sendo aberto corretamente | 8 |
 | US04-03 | Criação do gráfico | Implementar gráfico utilizando a métrica de amostragem definida | Validado a exibição correta de acordo com a métrica da US | 4 |
-
 | US05-01 | Estudar métodos de download de dados JSON | Estudar método de leitura do Endpoint e tratamento dos dados| Equipe ciente da metodologia a ser utilizada | 8 |
 | US05-02 | Baixar e tratar os dados | Implementar download e tratamento dos dados | Validado se o JSON está sendo aberto corretamente | 4 |
 | US05-03 | Criação do gráfico | Implementar gráfico evolutivo utilizando métrica definida | Validado a exibição correta do gráfico | 8 |
