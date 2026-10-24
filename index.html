@@ -3,25 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/global.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Endividados - Crédito inclusivo</title>
 </head>
 <body>
+    <nav class="nav flex-column">
+        <div class="nav-logo"></div>
+        <a class="nav-link active" href="#">Dashboard</a>
+        <a class="nav-link" href="#">Institucional</a>
+        <button class="nav-link menu-btn" data-bs-toggle="menu" href="#" role="button" aria-expanded="false">Menu</button>
+        <div class="menu" id="nav-menu">
+            <a class="menu-item" href="#">Dashboard</a>
+            <a class="menu-item" href="#">Institucional</a>
+        </div>
+    </nav>
+    <div class="contentWrapper">
+        <section>
+            <div class="contentWrapper-header">
+                <h1>Sistema de crédito inclusivo</h1>
+                Painel Territorial de Análise de Risco e Concessão de Crédito
+            </div>
+        </section>
+        <div class="contentWrapper-main">
+            <div class="contentWrapper-main--buttons">
+                <div class="form-label">
+                    Selecione um estado
+                </div>
+                <select class="form-select" aria-label="" id="filtroUFSelect">
+                    <option selected value="Acre">Selecione um estado</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapa">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceara">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espirito Santo">Espírito Santo</option>
+                    <option value="Goias">Goiás</option>
+                    <option value="Maranhao">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Para">Pará</option>
+                    <option value="Paraiba">Paraíba</option>
+                    <option value="Parana">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piaui">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondonia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="Sao Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
+            </div>
+            <button class="btn btn-primary" disabled>Filtrar Dados</button>    
+            <div class="flex" id="score">Score</div>
+        </div>
+        <section id="dadosDividaRapida">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card" id='card-01'>
+                        <div class="card-body">
+                            <div class="card-font">SCR - Banco Central</div>
+                            <h5 class="card-title">Mapeamento da Inadimplência de recuperação rápida</h5>
+                            <p class="card-text">
+                                O mapeamento da "Inadimplência de Recuperação Rápida" irá comparar regiões com inadimplência alta (pagamentos < 20 dias) com histórico de conversão para inadimplência longa baixa (> 90 dias). Os dados devem ser apresentados através de um gráfico relacionado apenas as pessoas físicas de cada estado que atenda os parâmetros citados
+                            </p>
+                            <!-- <p class="card-text">
+                                A renda per capita é um indicador relevante para avaliar o nível médio de renda da população e compreender as condições econômicas de uma região. Valores baixos podem indicar maior vulnerabilidade financeira, especialmente quando associados a outros fatores socioeconômicos e ao histórico de inadimplência local.
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" id='card-02'>
+                        <div class="card-body flex">
+                            Aqui vão ser inseridos os dados do endpoint
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="containerGrafico flex">
+                            <canvas id="graficoInadimplencia"></canvas>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dadosDivida">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card" id='card-03'>
+                        <div class="card-body">
+                            <div class="card-font">SCR - Banco Central</div>
+                            <h5 class="card-title">porcentagem da dívida que é saudável ou crítica da população</h5>
+                            <p class="card-text">
+                                Vale informar que gastos como dívida imobiliária a longo prazo é considerada saudável e dívida de consumo é crítica. Da se como crítica as finalidades não definidas ou que causam alto risco de inadimplência como é o caso do cheque especial. Os gastos e financiamentos planejados tendem a ter alta taxa de pagamento. 
 
-    <div class="containerGrafico">
-        <canvas id="graficoDensidade"></canvas>
-    </div>
 
-    <form>
-        <select name="UF" id="ufSelector">
-            <option value="Acre">Acre</option>
-            <option value="Sao Paulo">Sao Paulo</option>
-            <option value="Minas Gerais">inas Gerais</option>
-            <option value="Distrito Federal">Distrito Federal</option>
-        </select>
-    </form>
-      
+                            </p>
+                            <p class="card-text">
+                                As colunas da API do SCR que vão entregar essas informações são as de nome “modalidades” e “submodalidades” e foi listado abaixo alguns dos valores que podem servirem de base para a montagem do gráfico
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" id='card-04'>
+                        <div class="card-body flex">
+                            Aqui vão ser inseridos os dados do endpoint
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="containerGrafico flex">
+                            <canvas id="graficoDivida"></canvas>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dadosDemograficos">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card" id='card-05'>
+                        <div class="card-body">
+                            <div class="card-font">SENSO IBGE</div>
+                            <h5 class="card-title">Indicadores demográficos regionais</h5>
+                            <p class="card-text">
+                                Os indicadores demográficos permitem acompanhar a evolução das características socioeconômicas de cada estado, contribuindo para a avaliação de seu potencial econômico e para a identificação de tendências que podem influenciar a concessão de crédito e o risco de inadimplência.
+                            </p>
+                            <p class="card-text">
+                                A renda per capita é um indicador relevante para avaliar o nível médio de renda da população e compreender as condições econômicas de uma região. Valores baixos podem indicar maior vulnerabilidade financeira, especialmente quando associados a outros fatores socioeconômicos e ao histórico de inadimplência local.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" id='card-06'>
+                        <div class="card-body flex">
+                            Aqui vão ser inseridos os dados do endpoint
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="containerGrafico flex">
+                            <canvas id="graficoDensidade"></canvas>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>  
+    <!-- https://www.figma.com/make/RW6aSdhfLbGFIeqnEMxCR3/Mapeamento-da-Inadimpl%C3%AAncia-no-Brasil?code-node-id=0-6&p=f&fullscreen=1&preview-route=%2F%23us01 -->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script src="./js/scripts.js"></script>
 </html>

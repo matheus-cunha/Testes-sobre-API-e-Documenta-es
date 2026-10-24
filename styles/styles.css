@@ -1,0 +1,155 @@
+/* VARIÁVEIS GLOBAIS E CÓDIGO GLOBAL*/
+:root {
+    --color-primary: #0357ED;
+    --color-primary-dark: #002C78;
+    --color-light: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body{
+    width: 100%;
+    font-size: 16px;
+    background-color: var(--color-light);     
+    color: var(--color-primary-dark);
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    background: linear-gradient(45deg,#ffffff 0%, #D8EAF3 100%);
+}
+
+section{
+    margin: 1rem 0 2.5rem 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    margin: 1rem 0;
+}
+
+.card{
+    background-color: var(--color-light);
+    border-radius: 15px !important;
+    border: solid #a5aab4 1px !important;
+    font-size: 16px;
+    height: 100% !important;
+}
+
+/* NAVBAR */
+nav{
+    z-index: 1050;
+    width: 10rem;
+    position: fixed;
+    height: 100vh;
+    background: var(--color-primary-dark);
+    background: linear-gradient(0deg,var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    justify-content: center;
+    padding: 1rem !important;
+    color: var(--color-light);
+    gap: 1rem;
+}
+
+.nav-logo{
+    display: block;
+    width: 100%;
+    height: 5rem;
+    content: '';
+    margin-bottom: 3rem;
+    background-image: url(../imgs/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-link{
+    color: var(--color-light) !important;
+    text-decoration: none;
+    text-align: center;
+    z-index: 10;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+#nav-menu , nav button{
+    visibility: hidden;
+    position: absolute; 
+}
+
+
+/* HEADER E FILTRO */
+
+.contentWrapper{
+    padding: 2rem 2rem 2rem 12rem;
+    position: relative;
+}
+
+.contentWrapper-main {
+    position: sticky;
+    margin: 1rem 0 2.5rem 0;
+    top: 1rem;
+    z-index: 10;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: var(--color-light);
+    font-weight: bold;
+    border: solid #a5aab4 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.contentWrapper-main button{
+    background-color: var(--color-light);
+    color: var(--color-primary-dark);
+    padding: 0.5rem 2rem;
+}
+
+.contentWrapper-main--buttons{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    width: 100%;
+}
+
+#score{
+    width: 30rem;
+}
+
+/* SECTIONS E CARDS */
+
+.containerGrafico{
+    width: 100%;
+    height: 30rem;
+    padding: 2rem;
+}
+
+section .card-body{
+    font-size: 16px;
+}
+
+section .card-text{
+    font-size: 14px;
+}
+
+.card-font{
+    font-size: 12px;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+
+/* BREAKPOINTS */
+
+/* @media screen and (max-width: 900px){
+    .menu-btn{
+        visibility: visible;
+    }
+} */
