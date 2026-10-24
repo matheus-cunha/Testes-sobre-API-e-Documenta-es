@@ -3,6 +3,8 @@
     --color-primary: #0357ED;
     --color-primary-dark: #002C78;
     --color-light: #ffffff;
+    --color-grey: #a5aab4;
+    --color-dark-grey:#717F9C;
 }
 
 *{
@@ -39,9 +41,31 @@ section{
 .card{
     background-color: var(--color-light);
     border-radius: 15px !important;
-    border: solid #a5aab4 1px !important;
+    border: solid var(--color-grey) 1px !important;
     font-size: 16px;
     height: 100% !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.containerGrafico{
+    width: 100%;
+    height: 30rem;
+    padding: 2rem;
+}
+
+section .card-body{
+    font-size: 16px;
+}
+
+section .card-text{
+    font-size: 14px;
+}
+
+.card-font{
+    font-size: 12px;
+    font-weight: bolder;
+    opacity: 0.5;
 }
 
 /* NAVBAR */
@@ -84,15 +108,15 @@ nav{
     position: absolute; 
 }
 
-
 /* HEADER E FILTRO */
-
 .contentWrapper{
     padding: 2rem 2rem 2rem 12rem;
     position: relative;
+    width: 100vw;
 }
 
 .contentWrapper-main {
+    width: 100%;
     position: sticky;
     margin: 1rem 0 2.5rem 0;
     top: 1rem;
@@ -101,7 +125,7 @@ nav{
     padding: 1rem;
     background-color: var(--color-light);
     font-weight: bold;
-    border: solid #a5aab4 1px;
+    border: solid var(--color-grey) 1px;
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -111,6 +135,7 @@ nav{
     background-color: var(--color-light);
     color: var(--color-primary-dark);
     padding: 0.5rem 2rem;
+    flex: 1;
 }
 
 .contentWrapper-main--buttons{
@@ -118,33 +143,98 @@ nav{
     flex-direction: column;
     position: sticky;
     width: 100%;
+    flex: 4;
 }
 
-#score{
-    width: 30rem;
+.scoreConteiner{
+    width: 10rem;
+    gap: 0.5rem;
+    flex-direction: column;
 }
 
-/* SECTIONS E CARDS */
+.progress{
+    width: 100% ;
+    flex: 1;
+}
 
-.containerGrafico{
+#scoreBar{
     width: 100%;
-    height: 30rem;
-    padding: 2rem;
 }
 
-section .card-body{
-    font-size: 16px;
-}
 
-section .card-text{
+.dbCard{
     font-size: 14px;
+    color: var(--color-dark-grey);
 }
 
-.card-font{
-    font-size: 12px;
-    font-weight: bolder;
-    opacity: 0.5;
+.dbCard span:first-child{
+    text-transform: uppercase;
+    
 }
+
+.dbCard-row--title{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--color-grey);
+    margin-top: 0.5rem;
+}
+
+.dbCard-text{
+    flex: 1 !important;
+}
+
+.dbCard-text span{
+    font-weight: bold;
+    display: block;
+}
+
+.dbCard .row{
+    width: 100%;
+    margin: 0;
+} 
+
+.dbCard .col{
+    flex: 0;
+}
+
+.dbCard-icon{
+    width: 2.4rem !important;
+    height: 2.4rem;
+    min-width: 2.4rem;
+    min-height: 2.4rem;
+    background-color: var(--color-primary-dark);
+}
+
+.dbCard-inst{
+    -webkit-mask-image: url(../imgs/endpoint.svg);
+    mask-image: url(../imgs/endpoint.svg);
+}
+
+.dbCard-orig{
+    -webkit-mask-image: url(../imgs/tag.svg);
+    mask-image: url(../imgs/tag.svg);
+}
+
+
+
+
+    
+/* TEMPORARIO */
+/* .scoreControl{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.scoreControl:hover{
+    opacity: 1;
+} */
 
 /* BREAKPOINTS */
 

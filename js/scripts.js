@@ -73,17 +73,15 @@ function opcoesGrafico(eixoY) {
     };
 }
 
+// LISTNER PARA ALTERAÇÕES
 filtroUFSelect.addEventListener("change", () => {
     criarGraficos(filtroUFSelect.value);
+    // CODIGO TEMPORARIO SPRINT 2
+    atualizarScore(temporarioForcarScoreUF(filtroUFSelect.value));
 });
 
-// if (ufs.length > 0) {
-//     selectUF.value = ufs.includes("SP") ? "SP" : ufs[0];
-//     criarGraficoDensidade(selectUF.value);
-// }
-
-function criarGraficos(ufSelecionada) {
-    // CRIAÇÃO DOS DADOS PARA EXIBIÇÃO
+// CONSTRUTOR DOS DADOS PARA EXIBIÇÃO
+function criarGraficos(ufSelecionada) {    
     const dadosOrdenados = [...dadosUF].sort((a, b) => b.inadimplencia_bi - a.inadimplencia_bi);
     const ufs = dadosOrdenados.map(item => item.uf);
     const ctxInadimplencia = document.getElementById("graficoInadimplencia");
@@ -163,11 +161,9 @@ function criarGraficos(ufSelecionada) {
         }
     });
 
-
     graficoDensidade = new Chart(ctxDensidade, {
         type: "line",
         data: {
-            // O eixo X contempla todos os anos disponíveis.
             labels: anosPopulacao,
             datasets: [
                 {
@@ -244,43 +240,97 @@ function criarGraficos(ufSelecionada) {
             }
         }
     });
-// }
-
-    // graficoDensidade = new Chart(ctxDensidade, {
-    //     type: "line",
-    //     data: {
-    //         labels: ["2022", "2023", "2024", "2025"],
-    //         datasets: [
-    //             {
-    //                 label: "Densidade populacional",
-    //                 data: montarDatasetRendaIBGE(dadosDensidade),
-    //                 backgroundColor: "#10b981"
-                // },
-                // {
-                    // label: "Dívida crítica",
-                    // data: dadosDivida.map(
-                    //     item => item.percentual_critica
-                    // ),
-                    // backgroundColor: "#ef4444"
-    //             }
-    //         ]
-    //     },
-    //     options: {
-    //         ...opcoesGrafico("Renda média per capta (R$)"),
-    //         scales: {
-    //             ...opcoesGrafico("R$").scales,
-    //             y: {
-    //                 beginAtZero: true,
-    //                 max: 100,
-    //                 title: {
-    //                     display: true,
-    //                     text: "Renda média per capta (R$)"
-    //                 }
-    //             }
-    //         }
-    //     }
-    // });
 }
+
 
 // CONSTRUTOR DOS GRÁFICOS
 carregarDados();
+
+
+// TEMPORÁRIO - CONTROLE DE SCORE POR INPUT MANUAL
+// scoreBarControl.addEventListener('input', function() {
+//     const score = document.getElementById('scoreBarControl').value;
+//     atualizarScore(score);
+// });
+
+function atualizarScore(score){
+    document.getElementById('scoreBar').style.width = (score+'%');
+    const progressBar =  document.getElementById('scoreBar');
+        progressBar.classList.remove(
+            "bg-warning",
+            "bg-info",
+            "bg-success",
+            "bg-danger"
+        );
+        progressBar.innerText  = score;
+        if (score < 20) {
+            progressBar.classList.add("bg-danger");
+        } else if (score < 40) {
+            progressBar.classList.add("bg-warning");
+        } else if (score < 75) {
+            progressBar.classList.add("bg-info");
+        } else {
+            progressBar.classList.add("bg-success");
+        }
+};
+
+function temporarioForcarScoreUF(ufSelecionada){
+  switch (ufSelecionada) {
+        case "Acre":
+            return 45;
+        case "Alagoas":
+            return 65;
+        case "Amapa":
+            return 60;
+        case "Amazonas":
+            return 45;
+        case "Bahia":
+            return 35;
+        case "Ceara":
+            return 58;
+        case "Distrito Federal":
+            return 95;
+        case "Espirito Santo":
+            return 90;
+        case "Goias":
+            return 90;
+        case "Maranhao":
+            return 65;
+        case "Mato Grosso":
+            return 55;
+        case "Mato Grosso do Sul":
+            return 50;
+        case "Minas Gerais":
+            return 85;
+        case "Para":
+            return 80;
+        case "Paraiba":
+            return 70;
+        case "Parana":
+            return 95;
+        case "Pernambuco":
+            return 75;
+        case "Piaui":
+            return 54;
+        case "Rio de Janeiro":
+            return 75;
+        case "Rio Grande do Norte":
+            return 70;
+        case "Rio Grande do Sul":
+            return 95;
+        case "Rondonia":
+            return 65;
+        case "Roraima":
+            return 50;
+        case "Santa Catarina":
+            return 95;
+        case "Sao Paulo":
+            return 90;
+        case "Sergipe":
+            return 45;
+        case "Tocantins":
+            return 50;
+        default:
+            return 0;
+    }
+}
